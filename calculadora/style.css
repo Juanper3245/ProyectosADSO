@@ -1,0 +1,35 @@
+.container {
+  margin-top: 5%;
+  background-color: rgb(158, 158, 158);
+  width: 31%;
+  padding: 2%;
+  border-radius: 5%;
+  height: 50%;
+  border-color: black;
+}
+.barra {
+  font-size: 240%;
+  margin-bottom: 3%;
+}
+body {
+  background-color: rgb(153, 200, 242);
+}
+.imc {
+  width: 20%;
+  padding: 1%;
+}
+.calculadoraCientifica {
+  width: 20%;
+  padding: 1%;
+}
+.grados {
+  width: 20%;
+  padding: 1%;
+}
+.container-fluid {
+  margin-top: 5%;
+  background-color: rgb(158, 158, 158);
+  width: 31%;
+  padding: 2%;
+  height: 50%;
+}

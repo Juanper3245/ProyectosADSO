@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Calculadora Pro</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container mt-2">
+      <div class="row">
+        <div class="col-6">
+          <a href="index.html"
+            ><button class="btn btn-primary w-100">
+              CALCULADORA CIENTIFICA
+            </button></a
+          >
+        </div>
+        <div class="col-6">
+          <a href="imc.html"
+            ><button class="btn btn-secondary w-100">
+              CALCULADORAI.M.C
+            </button></a
+          >
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-6">
+          <div class="p-3 border rounded bg-light">
+            Ingresa los grados en celsius
+            <input type="text" id="celsius1" class="form-control mb-2" />
+
+            Resultado en Farenheit:
+            <input type="text" id="resultado1" class="form-control mb-3" />
+
+            <div class="row">
+              <div class="col-6">
+                <button class="btn btn-danger w-100" onclick="calcular1()">
+                  Calcular
+                </button>
+              </div>
+              <div class="col-6">
+                <button class="btn btn-dark w-100" onclick="borrar1()">
+                  Borrar
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6">
+          <div class="p-3 border rounded bg-light">
+            Ingresa los grados en Farenheit:
+            <input type="text" id="celsius2" class="form-control mb-2" />
+
+            Resultado en celsius:
+            <input type="text" id="resultado2" class="form-control mb-3" />
+
+            <div class="row">
+              <div class="col-6">
+                <button class="btn btn-danger w-100" onclick="calcular2()">
+                  Calcular
+                </button>
+              </div>
+              <div class="col-6">
+                <button class="btn btn-dark w-100" onclick="borrar2()">
+                  Borrar
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
