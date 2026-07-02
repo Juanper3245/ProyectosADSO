@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Buscador Pokémon</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      .bg-gradient {
+        background: linear-gradient(135deg, #ff6b6b, #4ecdc4);
+        min-height: 100vh;
+      }
+    </style>
+  </head>
+  <body class="bg-gradient">
+    <div class="container py-5">
+      <div class="row justify-content-center">
+        <div class="col-md-6 col-lg-4">
+          <div class="card shadow">
+            <div class="card-body">
+              <h1 class="text-center mb-4">Buscador Pokémon</h1>
+
+              <div class="input-group mb-3">
+                <input
+                  type="text"
+                  id="searchInput"
+                  class="form-control"
+                  placeholder="Nombre o ID..."
+                />
+                <button class="btn btn-danger" onclick="searchPokemon()">
+                  Buscar
+                </button>
+              </div>
+
+              <div id="result"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
